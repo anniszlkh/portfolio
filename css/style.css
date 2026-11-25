@@ -1535,6 +1535,15 @@ h1 em, h2 em, .shiftin-mock em {
   line-height: 1.9;
   color: var(--muted);
 }
+.case-intro a{
+  display: inline-block;
+  margin-top: 15px;
+  color: maroon;
+  text-decoration: underline;
+}
+.case-intro a:hover{
+  text-decoration: underline;
+}
 /* COVER */
 .case-cover {
   background: var(--paper);
